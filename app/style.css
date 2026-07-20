@@ -1,0 +1,61 @@
+/* Main text */
+.stApp {
+    color: #1f2937 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #0f172a !important;
+}
+
+/* Paragraphs, labels, markdown */
+p, label, span, div {
+    color: #1f2937;
+}
+
+
+/* Main App */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #e0f2fe, #f8fafc) !important;
+}
+
+/* Main content */
+.main .block-container {
+    padding-top: 2rem;
+    max-width: 1200px;
+}
+
+/* bg */
+[data-testid="stAppViewContainer"]{
+    background: linear-gradient(
+        135deg,
+        #f8fbff 0%,
+        #edf5ff 50%,
+        #e6f0ff 100%
+    ) !important;
+}
+/* sidebar */
+[data-testid="stSidebar"]{
+    background:#3f5ea0;
+}
+
+/* Buttons */
+.stButton button{
+    background:#2563eb;
+    color:white !important;
+    border-radius:12px;
+    height:50px;
+    font-weight:bold;
+}
+
+.stButton button:hover{
+    background:#1d4ed8;
+}
+
+/* Metric Cards */
+[data-testid="metric-container"]{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 8px 20px rgba(154, 125, 125, 0.08);
+}
