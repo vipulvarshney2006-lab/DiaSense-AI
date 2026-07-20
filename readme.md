@@ -1,5 +1,11 @@
 # 🏥 DiaSense AI
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-RandomForest-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 An AI-powered Early Diabetes Risk Prediction System built using Machine Learning and Streamlit.
 
 ---
@@ -111,7 +117,27 @@ streamlit run app/app.py
 
 https://diasense-ai-ku4hpmvzrk4mk8showme3e.streamlit.app/
 
+## ✨ Features
 
+- AI-Based Diabetes Prediction
+- Random Forest Classifier
+- Automatic BMI Calculation
+- Health Score
+- Risk Gauge
+- Personalized Recommendations
+- PDF Report Generation
+- Interactive Dashboard
+⭐ 5. Add "Future Scope"
+
+
+## Future Scope
+
+- Deep Learning Models
+- User Authentication
+- Database Integration
+- Hospital Integration
+- Cloud Deployment
+- Mobile Application
 
 ## 👨‍💻 Developer
 
