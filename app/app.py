@@ -6,6 +6,12 @@ import plotly.graph_objects as go
 import time
 from pathlib import Path
 
+from pathlib import Path
+
+image_path = Path("images/smoking_distribution.png")
+
+if image_path.exists():
+    st.image(image_path, use_container_width=True)
 # --------------------------------------------------
 # PAGE CONFIG
 # --------------------------------------------------
@@ -655,7 +661,7 @@ with tab4:
 
     st.image("images/blood_glucose_distribution.png", use_container_width=True)
 
-    st.image("images/smoking_distribution.png", use_container_width=True)    
+        
 
 with tab5:
 
